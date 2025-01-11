@@ -195,10 +195,10 @@ public final class RobotConstants {
                                 DrivetrainConstants.MAX_ANGULAR_SPEED_RADIANS_PER_SECOND,
                                 5 * Math.PI);
 
-                public static final double MAX_VELOCITY = 6.0; // Meters per second
-                public static final double MAX_ACCELERATION = 6.0; // Meters per second squared
-                public static final double MAX_ANGULAR_SPEED = 540.0; // Degrees per second
-                public static final double MAX_ANGULAR_ACCELERATION = 720.0; // Degrees per second squared
+                public static final double MAX_VELOCITY = 1.0; // Meters per second
+                public static final double MAX_ACCELERATION = 1.0; // Meters per second squared
+                public static final double MAX_ANGULAR_SPEED = 180.0; // Degrees per second
+                public static final double MAX_ANGULAR_ACCELERATION = 270.0; // Degrees per second squared
         }
 
         public static final class VisionConstants {
